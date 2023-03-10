@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="./images/book-open-solid.png"
+		/>
+		<title>Book List</title>
+	</head>
+	<body class="body-container">
+		<header class="header-container">
+			<form class="header-container__form">
+				<input
+					type="text"
+					placeholder="Search by Author, Title, or Genre"
+					class="header-container__input-field"
+					autofocus
+				/>
+				<div class="header-container__form-buttons">
+					<button class="header-container__search-button">
+						Search
+					</button>
+					<button class="header-container__show-all-button">
+						Show All
+					</button>
+				</div>
+			</form>
+			<h1 class="header-container__title">The Paper Haven</h1>
+			<h3 class="header-container__description">
+				Search through the best books ever written
+			</h3>
+			<button class="header-container__table-view-button">
+				View as Table
+			</button>
+		</header>
+		<main class="main-container">
+			<div class="book-list-container"></div>
+		</main>
+		<script src="index.js"></script>
+	</body>
+</html>
